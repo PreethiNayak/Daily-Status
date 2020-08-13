@@ -1,0 +1,6 @@
+1.Write a python program to find Triangular Matchstick Number.
+Code:-
+def numberOfSticks(x):
+    return (3 * x * (x + 1)) / 2
+numOfSticks=int(input('Enter num of sticks:'))
+print(int(numberOfSticks(numOfSticks)))
